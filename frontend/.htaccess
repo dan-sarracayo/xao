@@ -1,0 +1,5 @@
+# Rewrite engine on.
+RewriteEngine On
+
+# Redirect game codes to a hash.
+RewriteRule ^([A-Z0-9]+)/?$ /\#$1 [NC,NE,R=302]
