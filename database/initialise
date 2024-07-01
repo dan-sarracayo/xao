@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat ./data/create_schema.sql && echo -e "\n" &&
+cat ./data/create_users.sql && echo -e "\n" &&
+cat ./permissions/grant_permissions.sql;

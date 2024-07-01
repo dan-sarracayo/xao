@@ -1,0 +1,49 @@
+/* A basic box grid system. */
+
+.pane {
+  text-align: center;
+  margin: 0px auto;
+  padding: 0 1%;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  margin: 10px 0.5%;
+  text-align: left;
+}
+.box.align-middle { vertical-align: middle; }
+.box.align-bottom { vertical-align: bottom; }
+
+.pane.no-margin .box {
+  margin: 0 0.5%;
+}
+
+.box.l-12 { max-width: 99%; }
+.box.l-10 { max-width: 82.3333%; }
+.box.l-8 { max-width: 65.6666%; }
+.box.l-6 { max-width: 49%; }
+.box.l-4 { max-width: 32.3333%; }
+.box.l-3 { max-width: 24%; }
+.box.l-2 { max-width: 15.6666%; }
+
+@media only screen and (max-width: 768px) {
+  .box.m-12 { max-width: 99%; }
+  .box.m-10 { max-width: 82.3333%; }
+  .box.m-8 { max-width: 65.6666%; }
+  .box.m-6 { max-width: 49%; }
+  .box.m-4 { max-width: 32.3333%; }
+  .box.m-3 { max-width: 24%; }
+  .box.m-2 { max-width: 15.6666%; }
+}
+
+@media only screen and (max-width: 480px) {
+  .box.s-12 { max-width: 99%; }
+  .box.s-10 { max-width: 82.3333%; }
+  .box.s-8 { max-width: 65.6666%; }
+  .box.s-6 { max-width: 49%; }
+  .box.s-4 { max-width: 32.3333%; }
+  .box.s-3 { max-width: 24%; }
+  .box.s-2 { max-width: 15.6666%; }
+}

@@ -1,0 +1,8 @@
+# Send non-specific calls to API handler.
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php [NC,L,QSA]
+
+# Otherwise send them there for an error.
+FallbackResource /index.php
