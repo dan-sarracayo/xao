@@ -4,7 +4,7 @@
 
 XaO or X's and O's is a two player implementation of Noughts and Crosses. The frontend was built in vanilla JS, HTML and CSS and the I built the backend in PHP, with a MySQL Database.
 
-Play the live game here! https://xao.jetlaggedegg.co.uk/
+Play the live game here! [https://xao.sourmayo.com/](https://xao.sourmayo.com/)
 
 ## Getting Started
 
